@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-label="Ilustrasi jaringan saraf tiruan">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0E1B33"/><stop offset="1" stop-color="#2A1F7A"/></linearGradient></defs>
+<rect width="640" height="360" fill="url(#g)"/>
+<g stroke="#7C6CFF" stroke-opacity=".35" stroke-width="1.2">
+</g>
+<g id="n" fill="none">
+<g stroke="#8E80FF" stroke-opacity=".4">
+<path d="M100 70L250 50M100 70L250 130M100 70L250 210M100 70L250 290M100 150L250 50M100 150L250 130M100 150L250 210M100 150L250 290M100 230L250 50M100 230L250 130M100 230L250 210M100 230L250 290M100 310L250 50M100 310L250 130M100 310L250 210M100 310L250 290"/>
+<path d="M250 50L400 90M250 50L400 180M250 50L400 270M250 130L400 90M250 130L400 180M250 130L400 270M250 210L400 90M250 210L400 180M250 210L400 270M250 290L400 90M250 290L400 180M250 290L400 270"/>
+<path d="M400 90L540 130M400 90L540 230M400 180L540 130M400 180L540 230M400 270L540 130M400 270L540 230"/>
+</g></g>
+<g fill="#F3F6FB"><circle cx="100" cy="70" r="11"/><circle cx="100" cy="150" r="11"/><circle cx="100" cy="230" r="11"/><circle cx="100" cy="310" r="11"/></g>
+<g fill="#7C6CFF"><circle cx="250" cy="50" r="13"/><circle cx="250" cy="130" r="13"/><circle cx="250" cy="210" r="13"/><circle cx="250" cy="290" r="13"/><circle cx="400" cy="90" r="13"/><circle cx="400" cy="180" r="13"/><circle cx="400" cy="270" r="13"/></g>
+<g fill="#19C3A0"><circle cx="540" cy="130" r="15"/><circle cx="540" cy="230" r="15"/></g>
+<g fill="#C9D3EA" font-family="Arial,sans-serif" font-size="14" text-anchor="middle"><text x="100" y="346">input</text><text x="325" y="346">lapisan tersembunyi</text><text x="540" y="346">output</text></g>
+</svg>
