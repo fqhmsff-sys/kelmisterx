@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Memahami Kecerdasan Buatan (AI) – Kelompok Mister X</title>
+<meta name="description" content="Blog lengkap tentang kecerdasan buatan: pengertian, sejarah, cara kerja, manfaat, risiko, etika, dan data terbaru. Disusun Kelompok Mister X.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect width='64' height='64' rx='14' fill='%235B3DF5'/><text x='32' y='45' font-size='40' text-anchor='middle' fill='white' font-family='Arial' font-weight='700'>X</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@400;600&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="bar"></div>
+<nav aria-label="Navigasi"><b>Mister X</b>
+<a href="#apa">Pengertian</a><a href="#sejarah">Sejarah</a><a href="#cara">Cara kerja</a><a href="#jenis">Jenis</a><a href="#data">Data 2026</a><a href="#dampak">Dampak</a><a href="#etika">Etika</a><a href="#kuis">Kuis</a><a href="#tim">Tim</a>
+<button id="tema" aria-label="Ganti mode terang atau gelap">Terang/Gelap</button></nav>
+
+<header>
+<h1>Kecerdasan Buatan: dari Gagasan Turing sampai Era ChatGPT</h1>
+<p>Artikel ini membahas apa itu AI, bagaimana sejarahnya, bagaimana cara kerjanya, apa manfaat dan risikonya, serta apa yang dikatakan data terbaru. Disusun oleh Kelompok Mister X untuk tugas sekolah. Perkiraan waktu baca: 15 menit.</p>
+<div class="hero"><img src="assets/jaringan-saraf.svg" alt="Ilustrasi jaringan saraf tiruan dengan lapisan input, tersembunyi, dan output" width="640" height="360"></div>
+</header>
+
+<main>
+<div class="toc"><b class="ui">Isi artikel</b><ol>
+<li><a href="#apa">Apa itu AI?</a></li><li><a href="#sejarah">Sejarah singkat</a></li><li><a href="#cara">Cara kerja</a></li><li><a href="#jenis">Jenis-jenis AI</a></li><li><a href="#data">Data terbaru 2026</a></li><li><a href="#dampak">Manfaat dan risiko</a></li><li><a href="#etika">Etika dan aturan</a></li><li><a href="#indo">AI di Indonesia</a></li><li><a href="#tips">Cara memakai AI dengan bijak</a></li><li><a href="#faq">Tanya jawab</a></li><li><a href="#kuis">Kuis</a></li><li><a href="#sumber">Sumber</a></li></ol></div>
+
+<section id="apa"><h2>Apa itu AI?</h2>
+<p>Kecerdasan buatan (<i>artificial intelligence</i>, AI) adalah cabang ilmu komputer yang membuat sistem mampu melakukan pekerjaan yang biasanya membutuhkan kecerdasan manusia, seperti mengenali gambar dan suara, memahami bahasa, mengambil keputusan, dan belajar dari pengalaman. Tidak ada satu definisi tunggal yang disepakati semua ahli, karena batas antara "program biasa" dan "program cerdas" terus bergeser seiring kemajuan teknologi.</p>
+<p>Perbedaan paling mudah dipahami ada pada cara program dibuat. Program biasa berisi aturan yang ditulis manusia langkah demi langkah: jika A maka lakukan B. Pada AI modern, terutama <b>machine learning</b>, manusia tidak menulis semua aturan. Program diberi banyak contoh, lalu ia menemukan sendiri pola yang menghubungkan masukan dengan keluaran. Filter spam pada email adalah contohnya: ia belajar dari ribuan email yang sudah ditandai spam atau bukan, lalu menggunakan pola itu untuk email baru.</p>
+<p>AI sudah ada di sekitar kita bahkan sebelum kita menyadarinya: rekomendasi video, terjemahan otomatis, pembuka kunci ponsel dengan wajah, navigasi peta yang memperkirakan kemacetan, dan asisten percakapan. Karena itu memahami dasar-dasarnya bukan lagi urusan para ahli saja.</p>
+<figure><img src="assets/robot-obrolan.svg" alt="Ilustrasi percakapan antara manusia dan robot AI" width="640" height="360" loading="lazy"><figcaption>Gambar 1. Ilustrasi percakapan manusia dengan asisten AI (gambar orisinal buatan kelompok).</figcaption></figure>
+</section>
+
+<section id="sejarah"><h2>Sejarah singkat AI</h2>
+<p>Sejarah AI bukan garis lurus yang selalu naik. Ada masa penuh optimisme, ada pula masa kekecewaan. Pilih tahun di bawah ini untuk membaca peristiwa pentingnya.</p>
+<div class="tabs" id="tl" role="tablist" aria-label="Linimasa sejarah AI"></div>
+<div class="panel" id="tlp" aria-live="polite"></div>
+<p style="margin-top:16px">Pola yang berulang dalam sejarah ini jelas: kemajuan besar terjadi ketika tiga hal bertemu, yaitu <b>algoritma</b> yang baik, <b>data</b> yang melimpah, dan <b>tenaga komputasi</b> yang murah. Gagasan jaringan saraf sebenarnya sudah ada sejak 1950-an, tetapi baru benar-benar berhasil pada 2010-an ketika data internet dan prosesor grafis (GPU) tersedia dalam jumlah besar.</p>
+</section>
+
+<section id="cara"><h2>Bagaimana AI bekerja?</h2>
+<h3>1. Data</h3><p>Semua dimulai dari data: teks, gambar, suara, atau angka. Kualitas data sangat menentukan. Jika data latih berisi bias atau kesalahan, model akan mewarisinya. Karena itu ada ungkapan terkenal di dunia komputer, <i>garbage in, garbage out</i>.</p>
+<h3>2. Model dan pelatihan</h3><p>Model adalah rumus matematika besar dengan banyak angka yang disebut parameter. Saat pelatihan, model membuat tebakan, dibandingkan dengan jawaban benar, lalu parameternya diubah sedikit agar tebakan berikutnya lebih tepat. Proses ini diulang jutaan kali. Jaringan saraf tiruan tersusun dari lapisan "neuron" buatan yang saling terhubung, seperti pada Gambar 2, dan terinspirasi secara longgar dari otak, bukan tiruan persis otak.</p>
+<h3>3. Inferensi</h3><p>Setelah dilatih, model dipakai untuk menjawab masukan baru. Tahap ini disebut inferensi. Saat kamu mengetik pertanyaan ke asisten AI, yang terjadi adalah inferensi.</p>
+<h3>Bagaimana model bahasa menjawab?</h3>
+<p>Model bahasa besar (<i>large language model</i>, LLM) pada dasarnya dilatih untuk memprediksi potongan teks berikutnya (disebut token) berdasarkan teks sebelumnya. Dengan data dan ukuran yang sangat besar, kemampuan ini menghasilkan jawaban yang tampak memahami konteks. Arsitektur Transformer, dengan mekanisme <i>attention</i>, membuat model dapat menimbang kata mana yang paling relevan satu sama lain dalam sebuah kalimat. Penting diingat: model dapat terdengar yakin padahal salah. Fenomena ini disebut <i>halusinasi</i>, sehingga jawaban penting perlu diperiksa ke sumber terpercaya.</p>
+</section>
+
+<section id="jenis"><h2>Jenis-jenis AI</h2>
+<details open><summary>Berdasarkan kemampuan</summary><p><b>AI sempit (narrow AI)</b> mengerjakan satu jenis tugas dengan baik, misalnya mengenali wajah atau menerjemahkan. Semua AI yang kita pakai hari ini termasuk jenis ini, termasuk asisten percakapan, walaupun cakupan tugasnya sangat luas. <b>AI umum (AGI)</b> adalah gagasan sistem yang mampu mengerjakan hampir semua tugas intelektual manusia. AGI masih menjadi topik perdebatan dan belum ada kesepakatan apakah atau kapan akan tercapai.</p></details>
+<details><summary>Berdasarkan cara belajar</summary><p><b>Supervised learning</b> belajar dari contoh berlabel (misalnya foto kucing dan anjing yang sudah diberi nama). <b>Unsupervised learning</b> mencari pola dari data tanpa label, seperti mengelompokkan pelanggan. <b>Reinforcement learning</b> belajar lewat percobaan dan hadiah, seperti AlphaGo yang berlatih dengan bermain melawan dirinya sendiri.</p></details>
+<details><summary>Berdasarkan keluaran</summary><p><b>AI prediktif</b> memperkirakan sesuatu, misalnya cuaca atau risiko kredit. <b>AI generatif</b> membuat konten baru: teks, gambar, kode, atau suara. <b>Agen AI</b> tidak hanya menjawab tetapi menjalankan serangkaian langkah untuk mencapai tujuan, misalnya mengoperasikan aplikasi atau menulis dan menguji kode.</p></details>
+</section>
+
+<section id="data"><h2>Data terbaru: apa kata AI Index 2026?</h2>
+<p>Salah satu rujukan paling sering dipakai untuk melihat kondisi AI adalah laporan tahunan <b>AI Index</b> dari Stanford Institute for Human-Centered AI (HAI). Edisi 2026 terbit pada 13 April 2026 dan merupakan edisi kesembilan. Berikut temuan yang dilaporkan beberapa sumber yang meringkas laporan tersebut.</p>
+<div class="stats">
+<div class="stat"><strong data-to="53" data-suf="%">0</strong><span>penduduk dunia memakai AI generatif dalam tiga tahun, lebih cepat dari PC maupun internet</span></div>
+<div class="stat"><strong data-to="88" data-suf="%">0</strong><span>organisasi sudah mengadopsi AI</span></div>
+<div class="stat"><strong data-to="362">0</strong><span>kejadian AI terdokumentasi pada 2025 (233 pada 2024)</span></div>
+<div class="stat"><strong data-to="172" data-suf=" M$">0</strong><span>perkiraan nilai tahunan AI generatif bagi konsumen AS (miliar dolar)</span></div>
+</div>
+<figure><img src="assets/data-peta.svg" alt="Ilustrasi grafik batang yang naik dari tahun 2020 sampai 2025" width="640" height="360" loading="lazy"><figcaption>Gambar 2. Ilustrasi tren naik. Ini gambar konsep, bukan grafik dengan data aktual.</figcaption></figure>
+<p>Temuan lain yang menarik: pada tolok ukur pemrograman SWE-bench Verified, skor naik dari sekitar 60% menjadi hampir 100% dalam setahun. Kinerja agen AI pada tes OSWorld naik dari sekitar 12% menjadi sekitar 66%. Kesenjangan kinerja model terbaik Amerika Serikat dan China disebut praktis telah tertutup, dengan selisih sekitar 2,7% per Maret 2026. Kapasitas daya pusat data AI dilaporkan mencapai 29,6 GW. Studi yang dirangkum laporan menunjukkan peningkatan produktivitas sekitar 14–26% pada layanan pelanggan dan pengembangan perangkat lunak.</p>
+<p>Namun laporan yang sama juga mencatat sisi yang kurang nyaman. Pelaporan uji keselamatan dan tanggung jawab (<i>responsible AI</i>) masih tidak merata dibanding pelaporan kemampuan. Kemampuan AI juga "bergerigi": model bisa hebat dalam tugas rumit tetapi keliru pada tugas sederhana seperti membaca jam analog. Selain itu, ada jurang pandangan: sekitar 73% pakar optimistis tentang dampak AI pada pekerjaan mereka, sedangkan hanya sekitar 23% masyarakat umum yang sama optimistisnya.</p>
+<p class="note">Catatan metode: angka di atas kami ambil dari ringkasan resmi Stanford HAI dan liputan pihak ketiga yang mengutip laporan itu. Untuk kutipan formal, rujuk langsung laporan lengkap di situs Stanford HAI (lihat Sumber).</p>
+</section>
+
+<section id="dampak"><h2>Manfaat dan risiko</h2>
+<h3>Manfaat</h3>
+<p><b>Kesehatan:</b> AI membantu membaca citra medis, mempercepat riset obat, dan menyaring data pasien, meskipun keputusan akhir tetap berada di tangan tenaga medis. <b>Pendidikan:</b> pembelajaran dapat disesuaikan dengan kecepatan tiap siswa, dan siswa dapat bertanya kapan saja. <b>Produktivitas:</b> pekerjaan berulang seperti merangkum dokumen, menerjemahkan, dan menulis kode dasar dapat dipercepat. <b>Aksesibilitas:</b> pengenal suara dan pembaca layar membantu penyandang disabilitas. <b>Sains:</b> AI dipakai untuk menganalisis data besar dalam iklim, biologi, dan astronomi.</p>
+<h3>Risiko</h3>
+<p><b>Informasi palsu:</b> AI generatif memudahkan pembuatan teks, gambar, dan suara palsu (<i>deepfake</i>) yang meyakinkan. <b>Bias:</b> model mewarisi bias dari data latih sehingga bisa memperlakukan kelompok tertentu secara tidak adil. <b>Privasi:</b> data pribadi yang dimasukkan ke layanan AI dapat disimpan atau disalahgunakan. <b>Pekerjaan:</b> beberapa tugas dapat otomatis sehingga pekerja perlu belajar keterampilan baru. <b>Lingkungan:</b> pusat data membutuhkan listrik dan air dalam jumlah besar. <b>Ketergantungan:</b> terlalu bergantung pada AI dapat melemahkan kemampuan berpikir dan menulis sendiri.</p>
+</section>
+
+<section id="etika"><h2>Etika dan aturan main</h2>
+<p>Karena dampaknya luas, banyak pihak menyusun prinsip penggunaan AI. Beberapa prinsip yang sering muncul adalah <b>keadilan</b> (tidak diskriminatif), <b>transparansi</b> (orang tahu kapan berinteraksi dengan AI), <b>akuntabilitas</b> (ada pihak yang bertanggung jawab), <b>privasi</b>, serta <b>keamanan</b> (sistem tidak membahayakan). Banyak negara kini menyusun regulasi, dan menurut AI Index 2026, strategi AI nasional makin banyak ditempuh negara berkembang.</p>
+<p>Untuk pelajar, etika berarti jujur. Memakai AI untuk memahami materi, mencari ide, atau memeriksa tata bahasa adalah wajar. Menyerahkan hasil AI sebagai karya sendiri tanpa menyebutkannya adalah ketidakjujuran akademik, dan aturan tiap sekolah dapat berbeda. Selalu cek ketentuan dari gurumu.</p>
+</section>
+
+<section id="indo"><h2>AI di Indonesia</h2>
+<p>Indonesia memiliki Strategi Nasional Kecerdasan Artifisial 2020–2045 yang menjadi arah pengembangan AI nasional, dengan bidang prioritas seperti kesehatan, reformasi birokrasi, pendidikan dan riset, ketahanan pangan, serta mobilitas dan kota pintar. Selain itu, bahasa Indonesia dan bahasa daerah termasuk "bahasa dengan sumber data terbatas" dibanding bahasa Inggris, sehingga pengembangan data dan model lokal menjadi penting agar AI memahami konteks budaya kita. Detail kebijakan terbaru sebaiknya dicek langsung pada situs resmi kementerian dan BRIN karena dapat berubah.</p>
+</section>
+
+<section id="tips"><h2>Cara memakai AI dengan bijak</h2>
+<p><b>Periksa fakta.</b> Anggap jawaban AI sebagai draf, bukan kebenaran final. Cocokkan angka dan nama dengan sumber resmi. <b>Jaga data pribadi.</b> Jangan memasukkan kata sandi, nomor identitas, atau data orang lain. <b>Tulis perintah yang jelas.</b> Sebutkan tujuan, konteks, dan bentuk jawaban yang diinginkan. <b>Pahami, jangan hanya menyalin.</b> Minta AI menjelaskan, lalu ceritakan ulang dengan kata-katamu. <b>Sebutkan pemakaian AI</b> bila tugas atau pekerjaan menuntutnya.</p>
+</section>
+
+<section id="faq"><h2>Tanya jawab</h2>
+<details><summary>Apakah AI akan menggantikan semua pekerjaan manusia?</summary><p>Tidak ada yang dapat memastikan. Laporan AI Index 2026 menyebut mulai ada bukti pergeseran tenaga kerja akibat AI, tetapi juga peningkatan produktivitas. Yang realistis, banyak pekerjaan berubah isi tugasnya sehingga keterampilan beradaptasi menjadi penting.</p></details>
+<details><summary>Apakah AI punya perasaan atau kesadaran?</summary><p>Tidak ada bukti ilmiah yang disepakati bahwa AI saat ini memiliki perasaan atau kesadaran. Ia memproses pola data dan dapat menirukan gaya bicara yang tampak emosional.</p></details>
+<details><summary>Apa bedanya AI, machine learning, dan deep learning?</summary><p>AI adalah payung terluas. Machine learning adalah bagian AI yang belajar dari data. Deep learning adalah bagian machine learning yang memakai jaringan saraf berlapis banyak.</p></details>
+<details><summary>Dari mana belajar AI untuk pemula?</summary><p>Mulai dari dasar logika dan Python, lalu matematika dasar (aljabar, peluang), kemudian coba kursus pengantar machine learning dan latihan proyek kecil seperti pengklasifikasi gambar sederhana.</p></details>
+</section>
+
+<section id="kuis"><h2>Uji pemahamanmu</h2>
+<div class="quiz" id="quiz" aria-live="polite"></div>
+</section>
+
+<section id="sumber"><h2>Sumber</h2>
+<ol class="src">
+<li>Stanford HAI. "Inside the AI Index: 12 Takeaways from the 2026 Report", 13 April 2026. hai.stanford.edu/news/inside-the-ai-index-12-takeaways-from-the-2026-report</li>
+<li>Stanford HAI. The 2026 AI Index Report. hai.stanford.edu/ai-index/2026-ai-index-report</li>
+<li>Burges Salmon. "AI in 2026 – What Does Stanford's AI Index Tell Us?" (ringkasan temuan laporan).</li>
+<li>Digit. "Stanford AI Index 2026 report: 5 key insights on AI adoption and competency" (angka OSWorld dan produktivitas).</li>
+<li>Turing, A. M. (1950). "Computing Machinery and Intelligence". <i>Mind</i>, 59(236).</li>
+<li>McCarthy, J., Minsky, M., Rochester, N., Shannon, C. (1955). A Proposal for the Dartmouth Summer Research Project on Artificial Intelligence.</li>
+<li>Vaswani, A. dkk. (2017). "Attention Is All You Need". arXiv:1706.03762.</li>
+<li>Krizhevsky, A., Sutskever, I., Hinton, G. (2012). "ImageNet Classification with Deep Convolutional Neural Networks".</li>
+<li>Silver, D. dkk. (2016). "Mastering the game of Go with deep neural networks and tree search". <i>Nature</i>, 529.</li>
+</ol>
+<p class="note">Semua gambar dalam blog ini adalah ilustrasi orisinal buatan kelompok (format SVG di folder assets). Sebelum dikumpulkan, periksa kembali angka dan tahun terhadap sumber asli dan sesuaikan dengan format sitasi yang diminta gurumu.</p>
+</section>
+
+<section id="tim"><h2>Tentang kelompok kami</h2>
+<p>Kami adalah <b>Kelompok Mister X</b>, lima anggota yang menyusun blog ini bersama-sama.</p>
+<div class="team"><div><i>A</i>Akmal</div><div><i>F</i>Faqih</div><div><i>F</i>Fathan</div><div><i>R</i>Rama</div><div><i>G</i>Ghifari</div></div>
+</section>
+</main>
+<footer>© 2026 Kelompok Mister X – Akmal, Faqih, Fathan, Rama, Ghifari. Dibuat untuk tugas sekolah.</footer>
+<script src="script.js"></script>
+</body>
+</html>
