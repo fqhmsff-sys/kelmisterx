@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-label="Ilustrasi obrolan manusia dan AI">
+<rect width="640" height="360" fill="#EAF0FB"/>
+<circle cx="540" cy="60" r="90" fill="#D6DEF5"/><circle cx="80" cy="330" r="110" fill="#DCE5F8"/>
+<rect x="60" y="50" width="300" height="70" rx="18" fill="#fff"/><rect x="84" y="72" width="200" height="10" rx="5" fill="#C9D3EA"/><rect x="84" y="92" width="140" height="10" rx="5" fill="#C9D3EA"/>
+<rect x="280" y="150" width="300" height="86" rx="18" fill="#5B3DF5"/><rect x="304" y="174" width="230" height="10" rx="5" fill="#CFC6FF"/><rect x="304" y="194" width="250" height="10" rx="5" fill="#CFC6FF"/><rect x="304" y="214" width="120" height="10" rx="5" fill="#CFC6FF"/>
+<g transform="translate(70 190)"><rect x="0" y="0" width="110" height="96" rx="22" fill="#0E1B33"/><rect x="40" y="-22" width="30" height="22" rx="4" fill="#0E1B33"/><circle cx="55" cy="-28" r="9" fill="#19C3A0"/>
+<circle cx="35" cy="42" r="12" fill="#19C3A0"/><circle cx="75" cy="42" r="12" fill="#19C3A0"/><rect x="34" y="68" width="42" height="7" rx="3.5" fill="#7C6CFF"/><rect x="-10" y="30" width="10" height="30" rx="5" fill="#0E1B33"/><rect x="110" y="30" width="10" height="30" rx="5" fill="#0E1B33"/></g>
+<g fill="#0E1B33" font-family="Arial,sans-serif" font-size="13"><text x="60" y="150" opacity=".0">.</text></g>
+<g transform="translate(480 250)"><circle cx="30" cy="22" r="22" fill="#F2B880"/><path d="M-6 100c0-34 18-48 36-48s36 14 36 48z" fill="#0E1B33"/></g>
+</svg>
