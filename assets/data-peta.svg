@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-label="Ilustrasi grafik pertumbuhan AI">
+<rect width="640" height="360" fill="#0E1B33"/>
+<g stroke="#2B3C61" stroke-width="1"><path d="M60 60H600M60 130H600M60 200H600M60 270H600M60 320H600"/></g>
+<g fill="#19C3A0"><rect x="90" y="270" width="48" height="50" rx="4"/><rect x="170" y="240" width="48" height="80" rx="4"/><rect x="250" y="200" width="48" height="120" rx="4"/><rect x="330" y="150" width="48" height="170" rx="4"/><rect x="410" y="100" width="48" height="220" rx="4"/><rect x="490" y="55" width="48" height="265" rx="4" fill="#7C6CFF"/></g>
+<path d="M114 255L194 220L274 180L354 128L434 82L514 40" fill="none" stroke="#F3F6FB" stroke-width="3" stroke-linecap="round" stroke-dasharray="2 8"/>
+<g fill="#C9D3EA" font-family="Arial,sans-serif" font-size="13" text-anchor="middle"><text x="114" y="342">2020</text><text x="194" y="342">2021</text><text x="274" y="342">2022</text><text x="354" y="342">2023</text><text x="434" y="342">2024</text><text x="514" y="342">2025</text></g>
+</svg>
